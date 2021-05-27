@@ -31,7 +31,7 @@ function reset () {
     total = 0;
 }
 
-
+//TEST
 // console.log(total);
 // console.log(reset);
 // console.log(addition);
