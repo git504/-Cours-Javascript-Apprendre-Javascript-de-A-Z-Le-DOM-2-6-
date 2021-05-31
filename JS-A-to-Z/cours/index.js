@@ -9,6 +9,8 @@ questionContainer.addEventListener("click", () => {
     console.log(questionContainer);
     // questionContainer.style.background = "red";
     // questionContainer.style.border = "3px solid teal";
+questionContainer.classList.toggle("question-clicked")
+
 })
 
 
