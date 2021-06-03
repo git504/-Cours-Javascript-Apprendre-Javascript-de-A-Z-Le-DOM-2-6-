@@ -84,3 +84,7 @@ document.addEventListener("keypress", (e) => {
   if (e.key === "z") ring(e.key);
 });
 
+//-------------------------------------------------
+// Scroll Event
+
+const nav = document.querySelector("nav");
