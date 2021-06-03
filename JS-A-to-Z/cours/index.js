@@ -186,3 +186,7 @@ document.body.addEventListener(
 // });
 
 //removeEventListener
+
+//-------------------------------------------------
+// BOM
+
