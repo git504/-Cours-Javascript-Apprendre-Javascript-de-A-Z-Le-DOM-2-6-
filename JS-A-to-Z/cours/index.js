@@ -140,10 +140,42 @@ window.addEventListener("load", () => {
 const boxes = document.querySelectorAll(".box");
 
 boxes.forEach((box) => {
-  box.addEventListener('click', (e) => {
+  box.addEventListener("click", (e) => {
     //console.log(e.target);
     e.target.style.transform = "scale(0.7)";
-  })
+  });
 });
 
+//------------------------------------------------
+// addEventListener Vs onclick
 
+// document.body.onclick = () => {
+//   console.log("click !");
+// };
+
+// document.body.onscroll = () => {
+//   console.log("scroll!");
+// };
+
+// Bubbling => fin (de base l'eventlistener est paramétré en mode Bublbing)
+document.body.addEventListener(
+  "click",
+  () => {
+    console.log("click 1 !");
+  },
+  false
+);
+
+// Usecapture
+document.body.addEventListener(
+  "click",
+  () => {
+    console.log("click 2 !");
+  },
+  true
+);
+
+// https://gomakethings.com/what-is-that-third-argument-on-the-vanilla-js-addeventlistener-method-and-when-do-you-need-it/
+
+//-------------------------------------------------
+// Stop propagation

@@ -39,7 +39,6 @@
 // console.log(division);
 // console.log(multiplication);
 
- 
 const buttons = document.querySelectorAll(".btn");
 const result = document.getElementById("result");
 
