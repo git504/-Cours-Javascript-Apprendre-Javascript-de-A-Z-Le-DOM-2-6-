@@ -190,3 +190,36 @@ document.body.addEventListener(
 //-------------------------------------------------
 // BOM
 
+// console.log(window.innerHeigh);
+// console.log(window.scrollY);
+
+// window.open("http://google.com", "cours js", "height=600, width=600");
+// window.close()
+
+// Evénements adossés à Window
+// alert("hello");
+
+// confirm
+btn1.addEventListener("click", () => {
+  confirm("Reaaaly !");
+});
+
+btn2.addEventListener("click", () => {
+  let answer = prompt("Entrez votre nom");
+  questionContainer.innerHTML =
+    "<h3>Try again Mister " + answer + "   ;-) </h3>";
+});
+
+// Timer, compte à rebours
+setTimeout(() => {
+  questionContainer.style.borderRadius = "300px";
+}, 2000);
+
+// let interval = setInterval(() => {
+//   document.body.innerHTML += `
+//       <div class='box'>
+//         <h2>Nouvelle Boite !</h2>
+//       </div>
+//     `;
+// }, 4000);
+
