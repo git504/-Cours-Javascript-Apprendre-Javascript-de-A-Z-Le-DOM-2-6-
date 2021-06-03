@@ -65,11 +65,11 @@ const keypressContainer = document.querySelector(".keypress");
 const key = document.getElementById("key");
 
 const ring = () => {
-    const audio = new Audio();
-    audio.src = "./Enter.mp3";
-    audio.play();
-  };
-  
+  const audio = new Audio();
+  audio.src = "./Enter.mp3";
+  audio.play();
+};
+
 document.addEventListener("keypress", (e) => {
   //console.log(e.key);
   key.textContent = e.key;
@@ -88,3 +88,23 @@ document.addEventListener("keypress", (e) => {
 // Scroll Event
 
 const nav = document.querySelector("nav");
+
+window.addEventListener("scroll", (e) => {
+  console.log(window.scrollY);
+
+  if (window.scrollY > 120) {
+    nav.style.top = 0;
+  } else {
+    nav.style.top = "-50px";
+  }
+});
+
+//--------------------------------------------------
+// Form Events
+const inputName = document.querySelector('input[type="text"]');
+const select = document.querySelector("select");
+const form = document.querySelector("form");
+let pseudo = "";
+let language = "";
+
+
