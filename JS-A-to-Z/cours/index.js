@@ -130,3 +130,9 @@ form.addEventListener("submit", (e) => {
 
 //------------------------------------------------
 // Load event
+window.addEventListener("load", () => {
+  console.log("Document Chargé !");
+});
+
+//------------------------------------------------
+// ForEach
