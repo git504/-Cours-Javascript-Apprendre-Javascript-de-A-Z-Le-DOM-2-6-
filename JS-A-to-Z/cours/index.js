@@ -28,3 +28,13 @@ btn2.addEventListener("click", () => {
   response.style.background = "red";
 });
 
+// --------------------------------------
+// Mouse Events
+const mousemove = document.querySelector(".mousemove");
+//console.log(mousemove);
+window.addEventListener("mousemove", (e) => {
+//   console.log("MOUSEMOVE !!! Yihaaaaaaaaa");
+console.log(e);
+
+
+});
