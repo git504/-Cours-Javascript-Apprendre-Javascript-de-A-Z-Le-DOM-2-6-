@@ -4,10 +4,10 @@
 
 **Timecodes**
 
-( [VIDEO de FROM-SCRATCH](https://youtu.be/9OJLxDxyNg4) )
-( [TWITTER de FROM-SCRATCH](https://twitter.com/KobeKenjo) )
-( [Mon projet Bubble](https://git504.github.io/bubble-js/) )
-( [mon projet DOM-BOM](https://git504.github.io/DOMBOM-JS/) )
+- ( [VIDEO de FROM-SCRATCH](https://youtu.be/9OJLxDxyNg4) )
+- ( [TWITTER de FROM-SCRATCH](https://twitter.com/KobeKenjo) )
+- ( [Mon projet Bubble](https://git504.github.io/bubble-js/) )
+- ( [mon projet DOM-BOM](https://git504.github.io/DOMBOM-JS/) )
 
 - [x] 0:00 - Intro
 - [x] 2:41 - Qu'est-ce que Javascript 
