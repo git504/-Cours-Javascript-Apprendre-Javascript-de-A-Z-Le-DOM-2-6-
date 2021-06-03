@@ -16,9 +16,9 @@
 }
 h3 {
   text-align: right;
-  margin-right: 10px;
-  font-size: 2rem;
   margin: 7px 10px 0 0;
+  font-size: 2rem;
+  grid-area: res;
 }
 button {
   background: teal;
@@ -29,10 +29,7 @@ button {
   transition: 0.2s;
 }
 button:hover {
-  background: rgb(4, 160, 160);
-}
-#result {
-  grid-area: res;
+  background: rgb(5, 190, 190);
 }
 #equal {
   grid-area: equal;
