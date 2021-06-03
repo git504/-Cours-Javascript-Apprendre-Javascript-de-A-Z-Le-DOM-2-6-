@@ -145,3 +145,5 @@ boxes.forEach((box) => {
     e.target.style.transform = "scale(0.7)";
   })
 });
+
+
