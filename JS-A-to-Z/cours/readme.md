@@ -23,3 +23,5 @@
 - [x] 1:23:27 - Les fonctions 
 - [x] 1:34:52 - La portée des variables 
 - [x] 1:38:14 - Le projet (calculatrice) 
+
+![Logo](./FireShot%20Capture%20271%20-%20coursJSAZ%20-%20127.0.0.1.png)

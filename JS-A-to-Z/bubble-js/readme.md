@@ -9,6 +9,8 @@
 ( [Mon projet Bubble](https://git504.github.io/bubble-js/) )
 ( [mon projet DOM-BOM](https://git504.github.io/DOMBOM-JS/) )
 
+
+
 - [x] 0:00 - Intro
 - [x] 2:41 - Qu'est-ce que Javascript 
 - [x] 10:28 - Les outils pour coder le JS 
@@ -23,3 +25,5 @@
 - [x] 1:23:27 - Les fonctions 
 - [x] 1:34:52 - La portée des variables 
 - [x] 1:38:14 - Le projet (calculatrice) 
+
+![Logo](./FireShot%20Capture%20270%20-%20Bubble%20-%20127.0.0.1.png)
