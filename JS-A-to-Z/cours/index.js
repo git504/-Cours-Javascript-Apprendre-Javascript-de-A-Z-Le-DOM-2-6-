@@ -111,4 +111,17 @@ inputName.addEventListener('input', (e) => {
   pseudo = e.target.value;
 });
 
+select.addEventListener('input', (e) => {
+  language = e.target.value;
+});
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault;
+
+  if (cgv.checked) {
+
+  } else {
+    alert("Veuillez accepter les conditions gnérales de vente")
+  }
+});
 
