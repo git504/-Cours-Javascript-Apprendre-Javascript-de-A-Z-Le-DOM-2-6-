@@ -107,4 +107,8 @@ const form = document.querySelector("form");
 let pseudo = "";
 let language = "";
 
+inputName.addEventListener('input', (e) => {
+  pseudo = e.target.value;
+});
+
 
