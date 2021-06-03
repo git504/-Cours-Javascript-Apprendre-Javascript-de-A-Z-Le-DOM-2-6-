@@ -55,8 +55,32 @@ questionContainer.addEventListener("mouseout", () => {
 });
 
 response.addEventListener("mouseover", () => {
-    response.style.transform = "rotate(-15deg)";
-  });
+  response.style.transform = "rotate(-15deg)";
+});
+
+//---------------------------------------------------
+// KeyPress event
+
+const keypressContainer = document.querySelector(".keypress");
+const key = document.getElementById("key");
+
+const ring = () => {
+    const audio = new Audio();
+    audio.src = "./Enter.mp3";
+    audio.play();
+  };
   
-  //---------------------------------------------------
-  // KeyPress event
+document.addEventListener("keypress", (e) => {
+  //console.log(e.key);
+  key.textContent = e.key;
+
+  if (e.key === "j") {
+    keypressContainer.style.background = "pink";
+  } else if (e.key === "h") {
+    keypressContainer.style.background = "teal";
+  } else {
+    keypressContainer.style.background = "red";
+  }
+  if (e.key === "z") ring(e.key);
+});
+
