@@ -179,3 +179,10 @@ document.body.addEventListener(
 
 //-------------------------------------------------
 // Stop propagation
+
+// questionContainer.addEventListener("click", (e) => {
+//   alert("Test !");
+//   e.stopPropagation();
+// });
+
+//removeEventListener
